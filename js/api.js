@@ -24,7 +24,7 @@ function abc(titName,pageno,category){
             usedata(getdata, pageno)
         },
         error:function(xhr){
-            alert(xhr.status + '/' + xhr.errorText)
+            alert(xhr.status + '/' + xhr.errorText) 
         }
     })
 }
